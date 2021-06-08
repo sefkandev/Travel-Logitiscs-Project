@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		994FB23826427A6D00088EB3 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994FB23726427A6D00088EB3 /* TravelDetailView.swift */; };
+		994FB25C2642850700088EB3 /* CountryInterfaceDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994FB25B2642850700088EB3 /* CountryInterfaceDATA.swift */; };
+		9955F1CA264296D10042C93B /* NewsDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955F1C9264296D10042C93B /* NewsDATA.swift */; };
+		9955F1CC264296E70042C93B /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955F1CB264296E70042C93B /* NewsView.swift */; };
+		9955F1CE264297020042C93B /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955F1CD264297020042C93B /* FAQView.swift */; };
+		9955F1D02642970D0042C93B /* FAQDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955F1CF2642970D0042C93B /* FAQDATA.swift */; };
+		9955F1D62642FBEB0042C93B /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955F1D52642FBEB0042C93B /* ContactView.swift */; };
+		9955F1D8264346680042C93B /* WalletDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955F1D7264346670042C93B /* WalletDATA.swift */; };
+		9977271E2641E9CE00462C86 /* Travel_Logitiscs_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977271D2641E9CE00462C86 /* Travel_Logitiscs_ProjectApp.swift */; };
+		997727202641E9CE00462C86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977271F2641E9CE00462C86 /* HomeView.swift */; };
+		997727222641E9D000462C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997727212641E9D000462C86 /* Assets.xcassets */; };
+		997727252641E9D000462C86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997727242641E9D000462C86 /* Preview Assets.xcassets */; };
+		9977272E2641EA3500462C86 /* DATA .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977272D2641EA3500462C86 /* DATA .swift */; };
+		997727302641EA6900462C86 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977272F2641EA6900462C86 /* Wallet.swift */; };
+		997727342641F0A100462C86 /* PasseportWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997727332641F0A100462C86 /* PasseportWallet.swift */; };
+		997727362642010B00462C86 /* CarnetDeSanteWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997727352642010B00462C86 /* CarnetDeSanteWallet.swift */; };
+		997727382642013500462C86 /* VisaWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997727372642013500462C86 /* VisaWallet.swift */; };
+		9977273A2642015800462C86 /* OtherDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997727392642015800462C86 /* OtherDocument.swift */; };
+		9977273E2642094500462C86 /* ViewTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977273D2642094500462C86 /* ViewTab.swift */; };
+		99772741264210A200462C86 /* HomeViewDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99772740264210A200462C86 /* HomeViewDATA.swift */; };
+		997727432642115600462C86 /* TravelCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997727422642115600462C86 /* TravelCreationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		994FB23726427A6D00088EB3 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		994FB25B2642850700088EB3 /* CountryInterfaceDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInterfaceDATA.swift; sourceTree = "<group>"; };
+		9955F1C9264296D10042C93B /* NewsDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDATA.swift; sourceTree = "<group>"; };
+		9955F1CB264296E70042C93B /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		9955F1CD264297020042C93B /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		9955F1CF2642970D0042C93B /* FAQDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQDATA.swift; sourceTree = "<group>"; };
+		9955F1D52642FBEB0042C93B /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		9955F1D7264346670042C93B /* WalletDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDATA.swift; sourceTree = "<group>"; };
+		9977271A2641E9CE00462C86 /* Travel Logitiscs Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Logitiscs Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9977271D2641E9CE00462C86 /* Travel_Logitiscs_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_Logitiscs_ProjectApp.swift; sourceTree = "<group>"; };
+		9977271F2641E9CE00462C86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		997727212641E9D000462C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		997727242641E9D000462C86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		997727262641E9D000462C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9977272D2641EA3500462C86 /* DATA .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DATA .swift"; sourceTree = "<group>"; };
+		9977272F2641EA6900462C86 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		997727332641F0A100462C86 /* PasseportWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasseportWallet.swift; sourceTree = "<group>"; };
+		997727352642010B00462C86 /* CarnetDeSanteWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnetDeSanteWallet.swift; sourceTree = "<group>"; };
+		997727372642013500462C86 /* VisaWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaWallet.swift; sourceTree = "<group>"; };
+		997727392642015800462C86 /* OtherDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherDocument.swift; sourceTree = "<group>"; };
+		9977273D2642094500462C86 /* ViewTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTab.swift; sourceTree = "<group>"; };
+		99772740264210A200462C86 /* HomeViewDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewDATA.swift; sourceTree = "<group>"; };
+		997727422642115600462C86 /* TravelCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCreationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997727172641E9CE00462C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		994FB23A26427F5800088EB3 /* TravelDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				997727422642115600462C86 /* TravelCreationView.swift */,
+				994FB23726427A6D00088EB3 /* TravelDetailView.swift */,
+			);
+			path = TravelDetailView;
+			sourceTree = "<group>";
+		};
+		9955F1C7264296750042C93B /* InterfaceNews */ = {
+			isa = PBXGroup;
+			children = (
+				9955F1CB264296E70042C93B /* NewsView.swift */,
+			);
+			path = InterfaceNews;
+			sourceTree = "<group>";
+		};
+		9955F1C8264296970042C93B /* Interface FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				9955F1CD264297020042C93B /* FAQView.swift */,
+				9955F1D52642FBEB0042C93B /* ContactView.swift */,
+			);
+			path = "Interface FAQ";
+			sourceTree = "<group>";
+		};
+		997727112641E9CE00462C86 = {
+			isa = PBXGroup;
+			children = (
+				9977271C2641E9CE00462C86 /* Travel Logitiscs Project */,
+				9977271B2641E9CE00462C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9977271B2641E9CE00462C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9977271A2641E9CE00462C86 /* Travel Logitiscs Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9977271C2641E9CE00462C86 /* Travel Logitiscs Project */ = {
+			isa = PBXGroup;
+			children = (
+				9977271D2641E9CE00462C86 /* Travel_Logitiscs_ProjectApp.swift */,
+				9977272C2641EA0400462C86 /* AppData */,
+				9977273F26420D3200462C86 /* HomeView */,
+				997727312641EAB600462C86 /* Interface TabView */,
+				997727212641E9D000462C86 /* Assets.xcassets */,
+				997727262641E9D000462C86 /* Info.plist */,
+				997727232641E9D000462C86 /* Preview Content */,
+			);
+			path = "Travel Logitiscs Project";
+			sourceTree = "<group>";
+		};
+		997727232641E9D000462C86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				997727242641E9D000462C86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9977272C2641EA0400462C86 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				9977272D2641EA3500462C86 /* DATA .swift */,
+				9955F1CF2642970D0042C93B /* FAQDATA.swift */,
+				99772740264210A200462C86 /* HomeViewDATA.swift */,
+				994FB25B2642850700088EB3 /* CountryInterfaceDATA.swift */,
+				9955F1D7264346670042C93B /* WalletDATA.swift */,
+				9955F1C9264296D10042C93B /* NewsDATA.swift */,
+			);
+			path = AppData;
+			sourceTree = "<group>";
+		};
+		997727312641EAB600462C86 /* Interface TabView */ = {
+			isa = PBXGroup;
+			children = (
+				9977273D2642094500462C86 /* ViewTab.swift */,
+				9955F1C8264296970042C93B /* Interface FAQ */,
+				9955F1C7264296750042C93B /* InterfaceNews */,
+				997727322641EFC700462C86 /* InterfaceWallet */,
+			);
+			path = "Interface TabView";
+			sourceTree = "<group>";
+		};
+		997727322641EFC700462C86 /* InterfaceWallet */ = {
+			isa = PBXGroup;
+			children = (
+				9977272F2641EA6900462C86 /* Wallet.swift */,
+				997727332641F0A100462C86 /* PasseportWallet.swift */,
+				997727352642010B00462C86 /* CarnetDeSanteWallet.swift */,
+				997727372642013500462C86 /* VisaWallet.swift */,
+				997727392642015800462C86 /* OtherDocument.swift */,
+			);
+			path = InterfaceWallet;
+			sourceTree = "<group>";
+		};
+		9977273F26420D3200462C86 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9977271F2641E9CE00462C86 /* HomeView.swift */,
+				994FB23A26427F5800088EB3 /* TravelDetailView */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		997727192641E9CE00462C86 /* Travel Logitiscs Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997727292641E9D000462C86 /* Build configuration list for PBXNativeTarget "Travel Logitiscs Project" */;
+			buildPhases = (
+				997727162641E9CE00462C86 /* Sources */,
+				997727172641E9CE00462C86 /* Frameworks */,
+				997727182641E9CE00462C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel Logitiscs Project";
+			productName = "Travel Logitiscs Project";
+			productReference = 9977271A2641E9CE00462C86 /* Travel Logitiscs Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997727122641E9CE00462C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					997727192641E9CE00462C86 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 997727152641E9CE00462C86 /* Build configuration list for PBXProject "Travel Logitiscs Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 997727112641E9CE00462C86;
+			productRefGroup = 9977271B2641E9CE00462C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997727192641E9CE00462C86 /* Travel Logitiscs Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997727182641E9CE00462C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997727252641E9D000462C86 /* Preview Assets.xcassets in Resources */,
+				997727222641E9D000462C86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997727162641E9CE00462C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9955F1CE264297020042C93B /* FAQView.swift in Sources */,
+				997727432642115600462C86 /* TravelCreationView.swift in Sources */,
+				997727362642010B00462C86 /* CarnetDeSanteWallet.swift in Sources */,
+				9955F1CC264296E70042C93B /* NewsView.swift in Sources */,
+				9977273E2642094500462C86 /* ViewTab.swift in Sources */,
+				997727342641F0A100462C86 /* PasseportWallet.swift in Sources */,
+				99772741264210A200462C86 /* HomeViewDATA.swift in Sources */,
+				9955F1D62642FBEB0042C93B /* ContactView.swift in Sources */,
+				997727302641EA6900462C86 /* Wallet.swift in Sources */,
+				9977272E2641EA3500462C86 /* DATA .swift in Sources */,
+				9955F1D8264346680042C93B /* WalletDATA.swift in Sources */,
+				9955F1CA264296D10042C93B /* NewsDATA.swift in Sources */,
+				997727382642013500462C86 /* VisaWallet.swift in Sources */,
+				997727202641E9CE00462C86 /* HomeView.swift in Sources */,
+				9977271E2641E9CE00462C86 /* Travel_Logitiscs_ProjectApp.swift in Sources */,
+				994FB23826427A6D00088EB3 /* TravelDetailView.swift in Sources */,
+				9955F1D02642970D0042C93B /* FAQDATA.swift in Sources */,
+				994FB25C2642850700088EB3 /* CountryInterfaceDATA.swift in Sources */,
+				9977273A2642015800462C86 /* OtherDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		997727272641E9D000462C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		997727282641E9D000462C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9977272A2641E9D000462C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Travel Logitiscs Project/Preview Content\"";
+				DEVELOPMENT_TEAM = KB4X7K3CM4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Travel Logitiscs Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Travel-Logitiscs-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9977272B2641E9D000462C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Travel Logitiscs Project/Preview Content\"";
+				DEVELOPMENT_TEAM = KB4X7K3CM4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Travel Logitiscs Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Travel-Logitiscs-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997727152641E9CE00462C86 /* Build configuration list for PBXProject "Travel Logitiscs Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997727272641E9D000462C86 /* Debug */,
+				997727282641E9D000462C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997727292641E9D000462C86 /* Build configuration list for PBXNativeTarget "Travel Logitiscs Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9977272A2641E9D000462C86 /* Debug */,
+				9977272B2641E9D000462C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997727122641E9CE00462C86 /* Project object */;
+}
